@@ -1,0 +1,15 @@
+numpy
+pandas
+joblib
+typing
+scikit-learn
+xgboost
+matplotlib
+seaborn
+lightgbm
+PyPDF2 
+chromadb 
+sentence-transformers 
+google-generativeai
+posthog==3.12.1
+streamlit
