@@ -31,7 +31,7 @@ class PropertyModelTrainer:
     Uses sklearn Pipeline with ColumnTransformer.
     """
     
-    def __init__(self, data_path: str = "/project/workspace/GoldenMile/data/processed/BangaloreDataMod.csv"):
+    def __init__(self, data_path: str = "data/processed/BangaloreDataMod.csv"):
         """
         Initialize the trainer.
         
@@ -41,7 +41,7 @@ class PropertyModelTrainer:
         self.data_path = data_path
         self.models = {}
         self.results = []
-        self.artifacts_dir = "/project/workspace/GoldenMile/src/models/artifacts"
+        self.artifacts_dir = "src/models/artifacts"
         
         # Feature definitions
         self.categorical_features = ["location", "property_type"]
