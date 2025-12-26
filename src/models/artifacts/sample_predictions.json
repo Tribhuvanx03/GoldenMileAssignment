@@ -1,0 +1,67 @@
+[
+  {
+    "input": {
+      "location": "other",
+      "property_type": "Apartment",
+      "total_sqft": 1250.0,
+      "bath": 3.0,
+      "bhk": 3,
+      "amenities_score": 6
+    },
+    "actual_price": 5600000.0,
+    "predicted_price": 8240499.5,
+    "error_pct": 47.15177678571428
+  },
+  {
+    "input": {
+      "location": "Kudlu Gate",
+      "property_type": "Apartment",
+      "total_sqft": 1465.0,
+      "bath": 2.0,
+      "bhk": 3,
+      "amenities_score": 8
+    },
+    "actual_price": 4981000.0,
+    "predicted_price": 7035002.5,
+    "error_pct": 41.236749648664926
+  },
+  {
+    "input": {
+      "location": "other",
+      "property_type": "Apartment",
+      "total_sqft": 1225.0,
+      "bath": 2.0,
+      "bhk": 2,
+      "amenities_score": 5
+    },
+    "actual_price": 4700000.0,
+    "predicted_price": 7093682.0,
+    "error_pct": 50.92940425531914
+  },
+  {
+    "input": {
+      "location": "Uttarahalli",
+      "property_type": "Apartment",
+      "total_sqft": 1200.0,
+      "bath": 2.0,
+      "bhk": 2,
+      "amenities_score": 8
+    },
+    "actual_price": 4400000.0,
+    "predicted_price": 5999208.0,
+    "error_pct": 36.345636363636366
+  },
+  {
+    "input": {
+      "location": "HRBR Layout",
+      "property_type": "Apartment",
+      "total_sqft": 1440.0,
+      "bath": 2.0,
+      "bhk": 2,
+      "amenities_score": 5
+    },
+    "actual_price": 9800000.0,
+    "predicted_price": 7461345.0,
+    "error_pct": -23.863826530612243
+  }
+]
