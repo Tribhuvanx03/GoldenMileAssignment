@@ -13,7 +13,7 @@ import pandas as pd
 class DocumentProcessor:
     """Process PDF documents into text chunks with metadata."""
     
-    def __init__(self, knowledge_base_path: str = "/project/workspace/GoldenMile/data/knowledge_base"):
+    def __init__(self, knowledge_base_path: str = "data/knowledge_base"):
         self.knowledge_base_path = knowledge_base_path
         
     def extract_text_from_pdf(self, pdf_path: str) -> str:
@@ -31,7 +31,7 @@ class DocumentProcessor:
     def detect_locality(self, text: str) -> List[str]:
         """Extract Bangalore localities mentioned in text."""
 
-        bangalore_localities = (list(pd.read_csv("/project/workspace/GoldenMile/data/processed/BangaloreDataMod.csv")['location']))
+        bangalore_localities = (list(pd.read_csv("data/processed/BangaloreDataMod.csv")['location']))
         bangaore_local = set(bangalore_localities)
         # #print(len(bangaore_local))
         bangalore_localities = list(bangaore_local)
