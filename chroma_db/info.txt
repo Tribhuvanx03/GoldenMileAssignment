@@ -1,0 +1,1 @@
+This folder has the embeddings stored in a vector database. These embeddings are used for retrieving relevant contextual data in the RAG pipeline (by src/rag/retriever.py)
