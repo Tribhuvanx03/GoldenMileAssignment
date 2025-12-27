@@ -45,6 +45,7 @@ GoldenMile/
 │   ├── raw/                # Historical property listings
 │   └── knowledge_base/     # RERA, News, and Locality PDFs
 │   └── processed/          # Project ready dataset (after undergoing EDA and feature engineering)
+└── chroma_db/              # Metadata and UUID folder for vector searching
 ```
 
 # Methodology   
