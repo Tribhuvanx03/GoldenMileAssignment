@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "ml_prediction": {
+    "predicted_total_price": 14495422.0,
+    "predicted_price_per_sqft": 9351.89,
+    "estimated_monthly_rent": 35030.6,
+    "estimated_annual_yield_pct": 2.9,
+    "confidence_interval_90": {
+      "lower": 13045879.8,
+      "upper": 15944964.2
+    },
+    "property_details": {
+      "location": "Koramangala",
+      "property_type": "Villa",
+      "total_sqft": 1550,
+      "bhk": 3,
+      "bath": 3,
+      "amenities_score": 9
+    }
+  },
+  "rag_context_summary": {
+    "regulatory": 0,
+    "market_news": 5,
+    "locality_profile": 0,
+    "general": 0,
+    "query_location": 11
+  },
+  "investment_analysis": {
+    "investment_summary": "The property in Koramangala is predicted to have a total price of \u20b914.49 crores, with an estimated annual yield of 2.9% and a monthly rent of \u20b935,030.",
+    "key_drivers": [
+      "Predicted price per sqft of \u20b99,351.89, indicating a strong demand for properties in Koramangala",
+      "Upcoming transit-oriented infrastructure projects, such as the Peripheral Ring Road (PRR) and the Bengaluru Suburban Rail project, which are expected to unlock incremental real estate development potential of over 3.5 million sqm in the next five years"
+    ],
+    "risk_factors": [
+      "Potential risks associated with the PRR project, including delays in completion and land acquisition issues",
+      "Uncertainty surrounding the impact of the Bengaluru Suburban Rail project on property prices and rental yields"
+    ],
+    "recommendation": "Buy",
+    "confidence": "high",
+    "next_steps": [
+      "Conduct a site visit to assess the property's condition and location",
+      "Negotiate the price with the seller based on the predicted price per sqft and the expected impact of the upcoming infrastructure projects"
+    ]
+  },
+  "property_details": {
+    "location": "Koramangala",
+    "total_sqft": 1550,
+    "bhk": 3,
+    "bath": 3,
+    "property_type": "Villa",
+    "amenities_score": 9
+  }
+}
